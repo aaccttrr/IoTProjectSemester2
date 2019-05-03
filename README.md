@@ -6,6 +6,8 @@ Created to help parents/carers of blind and special needs children.
 
 ![system diagram](helpinghat2.png)
 
+![the hat itself](helpinghathardware.jpg)
+
 The Raspberry Pi on the helping hat is equipped with a SenseHat, and uses both the temperature sensor and accelerometer built in to upload values to wia.io. The Pi will also output audio messages using the eSpeak text-to-speech engine when the temperature increases past a certain point. The Pi also uses NodeJS to connect to a Blynk app on the users phone to obtain the GPS co-ordinates of the user.
 
 ## Dependencies
@@ -36,6 +38,10 @@ Replace your index.js with my index.js and run the script by entering the follow
 ### Wia
 
 > pip install wia
+
+![my wia dashboard](wiascrnsht.png)
+
+My Wia dashboard
 
 ### SenseHat libaries
 
