@@ -4,7 +4,7 @@ from time import sleep
 import os
 
 wia = Wia()
-wia.access_token = "d_sk_ufwn0iA9TrPpcJT9lBQIhOLy"
+wia.access_token = ""
 
 sense = SenseHat()
     
