@@ -1,8 +1,8 @@
-var wia = require('wia')('d_sk_ufwn0iA9TrPpcJT9lBQIhOLy')
+var wia = require('wia')('')
 
 var Blynk = require("blynk-library");
 
-var AUTH = 'fc3850cde7c5458cb17eb24616649306'
+var AUTH = '' 
 
 var blynk = new Blynk.Blynk(AUTH);
 
